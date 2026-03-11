@@ -22,3 +22,6 @@ jobs:
 
       - name: Compile Java files
         run: javac Test.java
+
+      - name: Build Docker image
+        run: docker build -t comp3050-server-week3 .
